@@ -134,8 +134,8 @@ When you allocate memory for a multidimensional array, you need only specify the
 You can allocate the remaining dimensions separately.
 In Java the length of each array in a multidimensional array is under your control.
 
-<h5>Example:
-</h5>
+<h5>Example:</h5>
+
 ```java
 int multi[][] = new int[2][];
 multi[0] = new int[5];
