@@ -87,7 +87,7 @@ public class Main {
 }
 ```
 ```
-<h3>Array are passed by refrence:</h3>
+Array are passed by refrence:
 ```
 
 <h6>Arrays are passed to functions by reference, or as a pointer to the original. This means anything you do to the Array inside the function affects the original.
@@ -112,34 +112,43 @@ public class Main{
 Output:
 Before Function call : A
 After Function call : Z
- 
+
+ ```
 Multidimensional Arrays:
+```
 
 Multidimensional arrays, are arrays of arrays.
 Syntax:
 
+```
 elementType[][] arrayName = new elementType[size][size];
+```
+<h5>Example:</h5>
 
-Example:
+```java
 
 int[][] intArrays = new int[4][5];
-
+```
  
 When you allocate memory for a multidimensional array, you need only specify the memory for the first (leftmost) dimension.
 You can allocate the remaining dimensions separately.
 In Java the length of each array in a multidimensional array is under your control.
-Example:
 
+<h5>Example:
+</h5>
+```java
 int multi[][] = new int[2][];
 multi[0] = new int[5];
 multi[1] = new int[4];
-
+```
  
-Array of Objects:
+<h6>Array of Objects:</h6>
 
 It is possible to create array of objects of user created class.
-Example:
 
+<h5>Example:</h5>
+
+```java
 class Employee{
 	int id;
 	String name;
@@ -161,6 +170,7 @@ class Main{
 		emp[1].displayData();
 	}
 }
+```
 
 
 Output:
