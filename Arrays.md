@@ -78,7 +78,7 @@ public class Main {
     names[0] = "A";
     names[1] = "ABC";
     names[2] = "XYZ";
-    for (int i = 0; i < names.length; i++) {
+    for (int i = 0; i  names.length; i++) {
       System.out.println(names[i]);
     }
     //this line should throw an exception
